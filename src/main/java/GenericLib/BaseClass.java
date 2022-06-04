@@ -28,8 +28,6 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	
-	
-	
 	@AfterMethod
 	public void closeApp(ITestResult result) throws IOException
 	{
